@@ -9,13 +9,14 @@
   
   inputs.src-lc-v0_7.flake = false;
   inputs.src-lc-v0_7.owner = "c-blake";
-  inputs.src-lc-v0_7.ref   = "refs/tags/v0.7";
+  inputs.src-lc-v0_7.ref   = "v0_7";
   inputs.src-lc-v0_7.repo  = "lc";
   inputs.src-lc-v0_7.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
   inputs."cligen".repo  = "cligen";
+  inputs."cligen".dir   = "";
   inputs."cligen".type  = "github";
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
