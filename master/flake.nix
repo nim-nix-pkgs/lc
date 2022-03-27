@@ -11,6 +11,7 @@
   inputs.src-lc-master.ref   = "refs/heads/master";
   inputs.src-lc-master.owner = "c-blake";
   inputs.src-lc-master.repo  = "lc";
+  inputs.src-lc-master.dir   = "";
   inputs.src-lc-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";

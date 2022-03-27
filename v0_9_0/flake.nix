@@ -11,6 +11,7 @@
   inputs.src-lc-v0_9_0.ref   = "refs/tags/v0.9.0";
   inputs.src-lc-v0_9_0.owner = "c-blake";
   inputs.src-lc-v0_9_0.repo  = "lc";
+  inputs.src-lc-v0_9_0.dir   = "";
   inputs.src-lc-v0_9_0.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
