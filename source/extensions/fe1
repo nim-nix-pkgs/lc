@@ -1,2 +1,0 @@
-#!/bin/sh
-du -s "$1" | awk '{print $1}'

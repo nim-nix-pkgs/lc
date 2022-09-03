@@ -1,3 +1,0 @@
-#!/bin/sh
-case "$1" in *cg.nim) exit 0 ;; esac
-exit 1
